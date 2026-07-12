@@ -1,0 +1,20 @@
+📂 restaurant-api/
+├── 📂 config/
+│   └── db.js              # Conexión a la Base de Datos
+├── 📂 controllers/
+│   ├── auth.controller.js
+│   ├── mesas.controller.js
+│   └── reser.controller.js
+├── 📂 database/
+│   └── schema.sql         # El archivo que te dio tu docente + seed data
+├── 📂 middlewares/
+│   ├── auth.middleware.js # Verificación de JWT
+│   └── role.middleware.js # Filtro de Cliente/Admin
+├── 📂 routes/
+│   ├── auth.routes.js
+│   ├── mesas.routes.js
+│   └── reser.routes.js
+├── .env.example           # ¡Obligatorio para el README!
+├── .gitignore             # ¡Asegúrate de poner .env aquí!
+├── index.js               # Punto de entrada de la app
+└── package.json
